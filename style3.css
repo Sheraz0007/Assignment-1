@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    box-sizing: border-box;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;	
+	
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+body{
+	background-color:#ecf0f1;}	
+
+.header{
+	text-align:center}
+	
+.head{
+	font-family: 'Chewy', cursive;
+	font-size:230%;
+	font-weight:bold;
+}
+
+.heads{
+	
+	background-color:#ecf0f1;	
+	}
+	
+.place{
+	float:right;}	
+
+.image{
+	max-width:200px;
+	max-height:200px;
+}
+
+.question {
+  overflow: visible;
+}
+
+.question h4 {
+  float: left;
+  text-transform: uppercase;
+}
+
+.question h4:hover {
+  cursor: pointer;
+}
+
+.question p {
+  float: right;
+  margin-right: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font: bold 0px Helvetica, sans-serif;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+
+
+
+h4:active ~ .yes, h4:focus ~ .yes {
+  color: #8e44ad;
+  font-size: 20px;
+}
+
+.button{
+	
+	background:#2980b9;
+	color:#FFF;
+	width:100px;
+	text-decoration:none;
+	text-align:center;
+	padding:3px;
+	display:block;
+	margin-left:5px;
+	margin-right:auto;
+	border-radius:10px;
+}
+
+.button:hover{
+	
+	background:#30C;
+	color:#FFF;
+	width:100px;
+	text-decoration:none;
+	text-align:center;
+	padding:3px;
+	display:block;
+	margin-left:5px;
+	margin-right:auto;
+	border-radius:10px;
+}
+
+.button12{
+	
+	background:#2980b9;
+	color:#FFF;
+	width:100px;
+	text-decoration:none;
+	text-align:center;
+	padding:5px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:7px;
+}
+
+.button12:hover{
+	
+	background:#30C;
+	color:#FFF;
+	width:100px;
+	text-decoration:none;
+	text-align:center;
+	padding:5px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:7px;
+}
+
+.show{
+	display: none;
+	}
+	
+.show:target{
+	display: block;
+	}
